@@ -125,7 +125,7 @@ h4{
     grid-area: menu-container;
   }
 
-@media only screen and (max-width: 1179px) {
+@media only screen and (max-width: 1279px) {
 .articles-aside-video{
     flex-direction:column;
 }
@@ -250,7 +250,7 @@ width:100%;
 #footer-author { 
     grid-area: footer-author;
 }
-@media only screen and (max-width: 1179px) {
+@media only screen and (max-width: 1279px) {
 .grid-container{
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.4fr; 
@@ -508,7 +508,7 @@ input[type=text], select, textarea {
   }
 .header { grid-area: header;}
 .form{ grid-area: form;}
-@media only screen and (max-width: 1179px) {
+@media only screen and (max-width: 1279px) {
     #cookies{
         padding: 10px;
     }
