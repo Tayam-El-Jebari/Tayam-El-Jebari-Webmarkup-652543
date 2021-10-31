@@ -99,11 +99,6 @@ body {
 	font-family: 'Notable', sans-serif;
 	font-size: 16px;
 	color: #ffc72c;
-	vertical-align: left;
-}
-
-header {
-	font-style: bold;
 }
 
 h1 {
@@ -120,7 +115,7 @@ h2 {
 h3 {
 	font-family: 'arial';
 	font-size: 18px;
-	font-style: bold;
+	font-weight: bold;
 }
 
 h4,
@@ -142,7 +137,6 @@ h4,
 	padding: 3px;
 	background-color: DarkSalmon;
 	color: white;
-	width: 1fr;
 	word-spacing: 10px;
 }
 
@@ -163,7 +157,7 @@ h4,
 	grid-area: menu-container;
 }
 
-@media only screen and (max-width: 1179px) and (min-width: 481) {
+@media screen and (max-width: 1179px) {
 	.articles-aside-video {
 		flex-direction: column;
 	}
@@ -313,7 +307,7 @@ article>p {
 	grid-area: footer-author;
 }
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1179px) {
 	.grid-container {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.4fr;
@@ -465,7 +459,7 @@ h1::first-letter {
 	grid-area: aside-product-3-ticket;
 }
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1179px) {
 	.grid-tickets {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto 1fr 1fr 1fr 1fr auto;
@@ -538,8 +532,8 @@ textarea {
 }
 
 #video {
-	width: "100%";
-	height: "20%";
+	width: 100%;
+	height: 20%;
 }
 
 input[type=submit] {
@@ -575,7 +569,7 @@ input[type=submit]:hover {
 	grid-area: form;
 }
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1179px) {
 	#cookies {
 		padding: 10px;
 	}
