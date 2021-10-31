@@ -119,7 +119,7 @@ h3 {
 }
 
 h4,
-#list-item-trends {
+.list-item-trends {
 	font-family: 'arial';
 	font-size: 16px;
 	font-style: italic;
